@@ -30,7 +30,7 @@ REDIS_PORT = {Your_Redis_Port}
 node index.js
 ```
 
-## Test
+## 🔍 Test
 
 Make a post request to {url}/api/notifications/send with the following body
 
