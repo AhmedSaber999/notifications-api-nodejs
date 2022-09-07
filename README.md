@@ -14,7 +14,7 @@ Just run the following command to install npm packages:
 npm install
 ```
 
-Make sure you have access to [redis](https://redis.io/) server and you have to edit the redis credentials in the <strong>.env</strong> file. 
+Make sure you have access to [redis](https://redis.io/) server and you have to edit the redis credentials in the <a href="./.env">.env</a> file. 
 
 ```
 REDIS_HOST = {Your_Redis_Host}
