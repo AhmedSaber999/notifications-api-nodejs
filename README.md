@@ -3,6 +3,9 @@
 ## API Architecture Design
 <img src="./images/api-arch-design.png" alt="api architecture design"/>
 
+## Prerequisites
+My node version ``` v16.16.0 ```
+My npm version  ``` 8.13.2 ```
 
 ## Installation
 
@@ -25,4 +28,15 @@ REDIS_PORT = {Your_Redis_Port}
 
 ```bash
 node index.js
+```
+
+## Test
+
+Make a post request to {url}/api/notifications/send with the following body
+
+```json
+{
+    "message": "your message",
+    "users":[1, 2, 3, 4, 5, 6] // the sample data contains 6 users with ids from 1 : 6 
+}
 ```
