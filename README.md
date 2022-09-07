@@ -4,7 +4,7 @@
 <img src="./images/api-arch-design.png" alt="api architecture design"/>
 
 ## Prerequisites
-My node version ``` v16.16.0 ```
+My node version ``` v16.16.0 ``` <br />
 My npm version  ``` 8.13.2 ```
 
 ## Installation
