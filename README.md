@@ -32,7 +32,7 @@ node index.js
 
 ## 🔍 Test
 
-Make a post request to {url}/api/notifications/send with the following body
+Make a post request to ```{url}/api/notifications/send``` with the following body
 
 ```json
 {
