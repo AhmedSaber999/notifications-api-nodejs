@@ -68,7 +68,7 @@ class UserRepository {
     this.getUsersCount().then(async(cnt) => {
       if(cnt === 0){
         const users = JSON.parse(
-          await fs.readFile("./seed/users.json", { encoding: "utf8" })
+          await fs.readFile("./seeds/users.json", { encoding: "utf8" })
         );
         users.forEach((user) => {
           this.createUser(user.name, user.email).catch((err) => {
